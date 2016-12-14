@@ -31,7 +31,7 @@
 //
 //M*/
 #include "mqoSeqModelObject.h"
-#include "orException.h"
+#include "../Main/orException.h"
 
 using namespace std;
 using namespace cv;
@@ -80,10 +80,10 @@ void mqoSeqModelObject::loadModelFile(string filename)
 			
 			if(fname_top!=string::npos){
 				string dirname = filename.substr(0, fname_top);
-				sprintf(fullfilename, "%s/%s%%d.mqo", dirname.c_str(), fh.c_str());
+				sprintf_s(fullfilename, "%s/%s%%d.mqo", dirname.c_str(), fh.c_str());
 			}
 			else{
-				sprintf(fullfilename, "%s\%%d.mqo", fh.c_str());
+				sprintf_s(fullfilename, "%s\%%d.mqo", fh.c_str());
 			}
 
 			model_seq = mqoCreateSequence(fullfilename,num,1.0);

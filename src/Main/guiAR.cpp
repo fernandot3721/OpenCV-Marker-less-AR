@@ -40,10 +40,10 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-#include "trackingOBJ.h"
-#include "viewModel.h"
-#include "commonCvFunctions.h"
-#include "utilFunctions.h"
+#include "../Tracking/trackingOBJ.h"
+#include "../Overlay/viewModel.h"
+#include "../Main/commonCvFunctions.h"
+#include "../Main/utilFunctions.h"
 
 #define _USE_MATH_DEFINES
 #include <math.h>

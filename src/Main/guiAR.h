@@ -30,7 +30,7 @@
 // SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 //M*/
-#include "controlOR.h"
+#include "../ObjRecog/controlOR.h"
 
 namespace cvar{
 

@@ -233,8 +233,8 @@ Object chunk Å® face chunk of material index (M (% d)) is not supported to -1.
 
 #if DEF_USE_LIBPNG
 
-	#include "png.h"
-	#include "zlib.h"
+	#include "../include/png.h"
+	#include "../include/zlib.h"
 	#pragma comment(lib,"libpng.lib")
 	#pragma comment(lib,"zlib.lib")
 

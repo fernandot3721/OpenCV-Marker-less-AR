@@ -37,7 +37,7 @@
 
 #include "visualWords.h"
 #include "imageDB.h"
-#include "orException.h"
+#include "../Main/orException.h"
 
 namespace cvar{
 

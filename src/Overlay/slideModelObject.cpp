@@ -35,8 +35,8 @@
 #include <iostream>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include "orException.h"
-#include "commonCvFunctions.h"
+#include "../Main/orException.h"
+#include "../Main/commonCvFunctions.h"
 
 using namespace std;
 using namespace cv;
